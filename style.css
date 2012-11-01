@@ -1,0 +1,76 @@
+/* 
+    Document   : style
+    Created on : Oct 31, 2012, 8:53:42 PM
+    Author     : P
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+  display: block;
+}
+
+.nav_bar{
+  list-style: none;
+  float: left;
+  width: 100%;
+  margin: 0 0 2.5em 0;
+  padding: 0;
+  background-color: #513127;
+  border-top: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc;  
+}
+
+.nav_bar li{
+  float: left; }
+
+.nav_bar li a{
+  display: block;
+  padding: 0.8em 1.5em;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid #ccc; }
+
+.nav_bar li a:hover{
+	color: black;
+	background-color: #F36E21; }
+
+table{
+  width: auto;
+  border-collapse:collapse;
+}
+table, th, td {
+  border: 0.1em solid #513127;
+}
+th{
+  height: 1.8em;
+  background-color: #513127;
+  color: white;
+}
+td{
+  text-align: center;
+  vertical-align: central;
+  padding: 0.2em 0.4em 0.2em 0.4em;
+}
+ 
+.action_button{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border-bottom-color:#333;
+	border:1px solid #61c4ea;
+	background-color:#7cceee;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#333;
+	font-family:'Verdana',Arial,sans-serif;
+	font-size:12px;
+	text-shadow:#b2e2f5 0 1px 0;
+	padding:1px
+}
+
+.action_button a:hover{
+	background-color:#F36E21;
+}
